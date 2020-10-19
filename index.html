@@ -1,76 +1,66 @@
 <!DOCTYPE html>
-
 <html lang="en">
-
 <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset="UTF-8">
-
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-
     <title>Secret Family Recipes</title>
-
-    <link rel="stylesheet" href="./style/index.css">
-
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.1/css/all.css" crossorigin="anonymous">
-
-
+    <link rel="stylesheet" href="/index.css">
+    <link rel="stylesheet" href="https://fonts.google.com/specimen/Raleway?selection.family=Serif">
 </head>
-
 <body>
     <header>
-
-        <h1>Secret Family Recipes</h1>
-
-        <nav>
-
-            <a href="index.html">Home</a>
-
-            <a href="about.html">About</a>
-
-            <a href="contact.html">Contact</a>
-
-            <a href="projects.html">Projects</a>
-
-        </nav>
-
+     <nav>
+         <a href="/index.html">Home</a>
+         <span></span>
+         <a class="bordered" href="/about.html">About</a>
+         <span></span> 
+         <a href="#">Contact</a>
+     </nav>    
     </header>
-
-    <section class="first-sect">
-        <h2>Secret Family Recipes</h2>
-        <p>Secret Family Recipes </p>
-        <img src="https://getvectorlogo.com/wp-content/uploads/2019/01/lambda-school-vector-logo.png" alt="">
+    <section class="title-container">
+        <div>
+            <h1>Secret Family<br>Recipes</h1>
+            <button>Click Me!</button>
+        </div>  
+        <hr>
     </section>
 
-    <section class="second-sect">
+    <section class="recipes-container">
+        
+    <div class="recipes">
+            <img src="images/breakfast.jpg"/>
+           <a href="https://en.wikipedia.org/wiki/Breakfast"> Breakfast</a>
+           <div class = "description">Breakfast description in detail.</div>
+    </div>
 
-        <img src="https://d92mrp7hetgfk.cloudfront.net/images/sites/misc/lambdaschool/original.png?1560210069">
+    <div class="recipes">
+        <img src="images/lunch.jpg"/>
+        <a href="https://en.wikipedia.org/wiki/Lunch"> Lunch</a>
+        <div class = "description">Lunch description in detail.</div>
+    </div>
 
-        <img src="https://d92mrp7hetgfk.cloudfront.net/images/sites/misc/lambdaschool/original.png?1560210069">
+    <div class="recipes">
+        <img src="images/dinner.jpg"/>
+        <a href="https://en.wikipedia.org/wiki/Dinner"> Dinner</a>
+        <div class = "description">Dinner description in detail.</div>
+    </div>
 
-        <img src="https://d92mrp7hetgfk.cloudfront.net/images/sites/misc/lambdaschool/original.png?1560210069">
-
-        <img src="https://d92mrp7hetgfk.cloudfront.net/images/sites/misc/lambdaschool/original.png?1560210069">
-
-        <p>Secret Family Recipes</p>
+    <div class="recipes">
+        <img src="images/dessert.jpg"/>
+        <a href="https://en.wikipedia.org/wiki/Dessert"> Dessert</a>
+        <div class = "description">Dessert description in detail.</div>
+    </div>
 
     </section>
-
-    <footer>
-        <a href="contact.html" class="contact-button">Contact Me</a>
-
-        <div class="social-container">
-            <a href="https://www.facebook.com/chris.elles.92/" target="_blank">
-                <i class="fab fa-facebook-f"></i>
-            </a>
-            <a href="https://www.linkedin.com/in/chris-elles/" target="_blank">
-                <i class="fab fa-linkedin-in"></i>
-            </a>
-            <a href="https://github.com/chriselles" target="_blank">
-                <i class="fab fa-github"></i>
-            </a>
-        </div>
-
-    </footer>
+    <script src="index.js"></script>
 </body>
+
+<footer>
+    <nav>
+      <a href="/index.html">Home</a>
+      <a href="/about.html">About</a>
+      <a href="/contact.html">Contact</a>
+    </nav>
+  </footer>
 
 </html>
