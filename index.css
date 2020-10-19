@@ -28,12 +28,12 @@ body{
     line-height: 1.5;
     font-family: 'Raleway', sans-serif;	
 }
-h1, p, .name, .bio {	
+h1, h2, p, .name, .bio {	
     font-family: 'Raleway', sans-serif;	
     text-align: center;	
     margin: 4%;	
 }	
-h1{
+h1, h2{
     font-size:6rem;
     margin:0;
 }
