@@ -9,8 +9,14 @@ Here is where our Lambda School Unit 1 students will create:
 
 1st Draft Pushed.
 
-Home / About still need to be differentiated 
+New image for Title-Container added 
 
-New image for 
+Stretch: Contact Page added
 
-Stretch: Add Contact Page
+To do: 
+
+Flesh out About and Contact pages
+
+Refine accessibility 
+
+Compare against MVP requirements
