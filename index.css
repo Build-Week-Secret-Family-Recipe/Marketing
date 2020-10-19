@@ -89,9 +89,9 @@ nav span{
     justify-content: center;
 }
 .title-container div {	
-    background-image: url('images/dinner.jpg');		
+    background-image: url('images/lambda-recipe-main.jpg');		
     background-position: center;	
-    color: white;	
+    color: black;	
     width:80%;
     display:flex;
     flex-direction: column;
