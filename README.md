@@ -15,6 +15,8 @@ Stretch: Contact Page added
 
 To do: 
 
+Media Query for 2 columns between the 4 column and 1 column change
+
 Flesh out About and Contact pages
 
 Refine accessibility 
