@@ -19,6 +19,8 @@ Media Query for 2 columns between the 4 column and 1 column change
 
 Flesh out About and Contact pages
 
+Flesh out Breakfast, Lunch, Dinner, Desert descriptions
+
 Refine accessibility 
 
 Compare against MVP requirements
