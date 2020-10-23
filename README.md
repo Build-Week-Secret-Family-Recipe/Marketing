@@ -6,6 +6,7 @@ Here is where our Lambda School Unit 1 students will create:
 2) About Page /about/html
 3) CSS Page /index.css
 
+Current Weblify version found here: https://elles-secret-family-recipes.netlify.app/about.html
 
 1st Draft Pushed.
 
@@ -21,6 +22,6 @@ To do:
 
 [X] Flesh out Breakfast, Lunch, Dinner, Desert descriptions
 
-[] Refine accessibility 
+[X] Refine accessibility 
 
-[] Compare against MVP requirements
+[X] Compare against MVP requirements

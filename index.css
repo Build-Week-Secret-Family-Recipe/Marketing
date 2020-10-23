@@ -163,12 +163,11 @@ button:hover{
     }
   
   .recipes-container {
-    display: flex; /* Remove */
-    flex-direction: row; /* Remove */
-      /* flex-direction: column; */
+    display: flex; /* Added compared with <500px */
+    flex-direction: row; /* Added compared with <500px */
     align-items: center;
-    justify-content: center; /* justify-content: flex-start; */
-    width: 90%; /*width 90% */
+    justify-content: center; /* justify-content: flex-start; at <500px */
+    width: 90%; /*width 90% at <500px */
     }
   
   .recipes {
@@ -178,7 +177,7 @@ button:hover{
   .recipes img {
       object-fit: contain;
       height: 100%;
-      width: 80%; /* width 70% */
+      width: 80%; /* width adjusted from 70% at <500px */
     }
   }
 
@@ -198,22 +197,22 @@ button:hover{
     }
   
   .title-container hr {
-      width: 100%; /*width 100% */
+      width: 100%; /*width 100% at <500px */
     }
   
   .recipes-container {
-      flex-wrap: wrap;
-      width: 90%; /*width 90% */
+      flex-wrap: wrap; /* two column */
+      width: 90%; /*width 90% at <500px */
     }
 
   .recipes { 
-     width: 30%;  /*100% */
+     width: 30%;  /*width adjusted from 100% at <500px */
     } 
   
   .recipes img {
       object-fit: contain;
       height: 100%;
-      width: 80%; /*Width 70%*/
+      width: 80%; /*Width adjusted from 70% at <500px */
     }
   } 
 
@@ -250,7 +249,7 @@ button:hover{
 .recipes img {
     object-fit: contain;
     height: 100%;
-    width: 80%; /* 70% */
+    width: 80%; /* single column */
   }
 } 
 	
