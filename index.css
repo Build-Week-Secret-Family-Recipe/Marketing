@@ -178,7 +178,7 @@ button:hover{
   .recipes img {
       object-fit: contain;
       height: 100%;
-      width: 90%; /* width 70% */
+      width: 80%; /* width 70% */
     }
   }
 
@@ -213,7 +213,7 @@ button:hover{
   .recipes img {
       object-fit: contain;
       height: 100%;
-      width: 70%; /*Width 70%*/
+      width: 80%; /*Width 70%*/
     }
   } 
 
@@ -250,7 +250,7 @@ button:hover{
 .recipes img {
     object-fit: contain;
     height: 100%;
-    width: 70%;
+    width: 80%; /* 70% */
   }
 } 
 	
