@@ -6,6 +6,7 @@ Here is where our Lambda School Unit 1 students will create:
 2) About Page /about/html
 3) CSS Page /index.css
 
+Current Weblify version found here: https://elles-secret-family-recipes.netlify.app/about.html
 
 1st Draft Pushed.
 
@@ -15,10 +16,12 @@ Stretch: Contact Page added
 
 To do: 
 
-Media Query for 2 columns between the 4 column and 1 column change
+[X] Media Query for 2 columns between the 4 column and 1 column change 
 
-Flesh out About and Contact pages
+[X] Flesh out About and Contact pages
 
-Refine accessibility 
+[X] Flesh out Breakfast, Lunch, Dinner, Desert descriptions
 
-Compare against MVP requirements
+[X] Refine accessibility 
+
+[X] Compare against MVP requirements

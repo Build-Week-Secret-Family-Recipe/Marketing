@@ -8,19 +8,25 @@
     <link rel="stylesheet" href="https://fonts.google.com/specimen/Raleway?selection.family=Serif">
 </head>
 <body>
+
+<!--Header links: Home(index.html), Recipes(link out to app), About(about.html)-->   
+    
     <header>
      <nav>
         <a href="/index.html">Home</a>
         <span></span>
-        <a class="bordered" href="https://github.com/Build-Week-Secret-Family-Recipe">Recipes</a>
+        <a class="bordered" href="https://front-end-secret-recipe.vercel.app/login">Recipes</a>
         <span></span> 
         <a href="/about.html">About</a>
      </nav>    
     </header>
+
+<!--Title billboard image with link out to app--> 
+
     <section class="title-container">
         <div>
             <h1>Secret Family<br>Recipes</h1>
-            <a href="https://github.com/Build-Week-Secret-Family-Recipe">Click Me!</a>
+            <button><a href="https://front-end-secret-recipe.vercel.app/login">Log In</a></button>
         </div>  
         <hr>
     </section>
@@ -29,37 +35,44 @@
     <br>
     <h2>About Us</h2>
     <br>
+    <p>We are a collaborative team of Lambda School Full Stack Web Dev students creating a Build Week project. Our team consists of: <br>Edwin Chajon(PL)<br>Sarahmarie Hollenstein(Unit 4)<br>Angel Manuel Couso Jimenez(Unit 4)<br>Ella Mae Freshwater(Unit 3)<br>Kyle Naumann(Unit 2)<br>Shenandoah Veele(Unit 2)<br>Chris Elles(Unit 1)</p>
     </div>
+
+<!--Breakfast, Lunch, Dinner, Dessert columns with links out to app -->    
 
     <section class="recipes-container">
+        
+        <div class="recipes">
+                <img src="images/breakfast.jpg" alt="Breakfast"/>
+               <button><a href="https://front-end-secret-recipe.vercel.app/login"> Breakfast</a></button>
+               <div class = "description">Check out all the brilliant breakfast recipes.</div>
+        </div>
+    
+        <div class="recipes">
+            <img src="images/lunch.jpg" alt="Lunch"/>
+            <button><a href="https://front-end-secret-recipe.vercel.app/login"> Lunch</a></button>
+            <div class = "description">Delicious lunch recipes right this way.</div>
+        </div>
+    
+        <div class="recipes">
+            <img src="images/dinner.jpg" alt="Dinner"/>
+            <button><a href="https://front-end-secret-recipe.vercel.app/login"> Dinner</a></button>
+            <div class = "description">We've got all your delicious dinner recipes here.</div>
+        </div>
+    
+        <div class="recipes">
+            <img src="images/dessert.jpg" alt="Dessert"/>
+            <button><a href="https://front-end-secret-recipe.vercel.app/login"> Dessert</a></button>
+            <div class = "description">Decadent dessert you deserve.</div>
+        </div>
+        </section>
 
-    <div class="recipes">
-            <img src="images/breakfast.jpg"/>
-           <a href="https://en.wikipedia.org/wiki/Breakfast"> Breakfast</a>
-           <div class = "description">Breakfast description in detail.</div>
-    </div>
+<!--JS, if required-->
 
-    <div class="recipes">
-        <img src="images/lunch.jpg"/>
-        <a href="https://en.wikipedia.org/wiki/Lunch"> Lunch</a>
-        <div class = "description">Lunch description in detail.</div>
-    </div>
-
-    <div class="recipes">
-        <img src="images/dinner.jpg"/>
-        <a href="https://en.wikipedia.org/wiki/Dinner"> Dinner</a>
-        <div class = "description">Dinner description in detail.</div>
-    </div>
-
-    <div class="recipes">
-        <img src="images/dessert.jpg"/>
-        <a href="https://en.wikipedia.org/wiki/Dessert"> Dessert</a>
-        <div class = "description">Dessert description in detail.</div>
-    </div>
-
-    </section>
     <script src="index.js"></script>
 </body>
+
+<!--Footer-->
 
 <footer>
     <nav>

@@ -1,4 +1,5 @@
 /* CSS RESET */
+
 html, body, div, span, applet, object, iframe,  
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,  
 a, abbr, acronym, address, big, cite, code,  
@@ -19,7 +20,9 @@ font-size: 100%;
 font: inherit;  
 vertical-align: baseline;  
 }
-/* GENERAL STYLES */
+
+/* Generla Style */
+
 html{
     font-size:62.5%;
 }
@@ -63,7 +66,8 @@ img:hover {
     opacity: 80%;	
 }	
 
-/* HEADER STYLES */
+/* Header Style */
+
 header{
     display:flex;
     justify-content: center;
@@ -82,7 +86,8 @@ nav span{
 
 }
 
-/* Title Section Styles */
+/* Title Section Style */
+
 .title-container{
     display:flex;
     flex-wrap: wrap;
@@ -121,7 +126,8 @@ button:hover{
     box-shadow: 2px 2px 1px white;
 }
 
-/* Recipes Section Styles */
+/* Recipes Section Style */
+
 .recipes-container{
     display:flex;
     justify-content: space-around;
@@ -137,16 +143,78 @@ button:hover{
     width:100%;
 }
 
-/* widescreen responsive code (1920px) */
+/* laptop or wider responsive code (1024px) */
 
-
-/* Laptop responsive code (1366px) */
-
+@media only screen and (min-width: 801px) and (max-width: 1024px){
+    nav {
+      min-width: 60%; 
+      font-size: 2rem;
+      padding: 0 10px; 
+    }  
+    
+  .title-container div {
+      width: 100%;
+      min-height: 300px;
+      margin: 10% 0 2% 0;
+    }
+  
+  .title-container hr {
+      width: 100%;
+    }
+  
+  .recipes-container {
+    display: flex; /* Added compared with <500px */
+    flex-direction: row; /* Added compared with <500px */
+    align-items: center;
+    justify-content: center; /* justify-content: flex-start; at <500px */
+    width: 90%; /*width 90% at <500px */
+    }
+  
+  .recipes {
+      width: 100%;
+    }
+  
+  .recipes img {
+      object-fit: contain;
+      height: 100%;
+      width: 80%; /* width adjusted from 70% at <500px */
+    }
+  }
 
 /* tablet responsive code (800px) */
 
+@media only screen and (min-width: 501px) and (max-width: 800px){
+    nav {
+      min-width: 60%; 
+      font-size: 2rem;
+      padding: 0 10px; 
+    }  
+    
+  .title-container div {
+      width: 100%; 
+      min-height: 300px;
+      margin: 10% 0 2% 0;
+    }
+  
+  .title-container hr {
+      width: 100%; /*width 100% at <500px */
+    }
+  
+  .recipes-container {
+      flex-wrap: wrap; /* two column */
+      width: 90%; /*width 90% at <500px */
+    }
 
-/*mobile response code iPhone(360px)*/
+  .recipes { 
+     width: 30%;  /*width adjusted from 100% at <500px */
+    } 
+  
+  .recipes img {
+      object-fit: contain;
+      height: 100%;
+      width: 80%; /*Width adjusted from 70% at <500px */
+    }
+  } 
 
 /* media query setting a max width of 500px, font-size 2rem relative to root, padding 10px  */
 
@@ -181,22 +249,10 @@ button:hover{
 .recipes img {
     object-fit: contain;
     height: 100%;
-    width: 70%;
+    width: 80%; /* single column */
   }
 } 
 	
-/*general code*/
-
-	
-/* header code */
-
-
-/* first section code */ 
-
-
-/* second section code */
-
-
 /*footer code*/
 
 footer{
