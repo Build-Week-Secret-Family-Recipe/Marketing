@@ -15,12 +15,12 @@ Stretch: Contact Page added
 
 To do: 
 
-Media Query for 2 columns between the 4 column and 1 column change
+[X] Media Query for 2 columns between the 4 column and 1 column change 
 
-Flesh out About and Contact pages
+[X] Flesh out About and Contact pages
 
-Flesh out Breakfast, Lunch, Dinner, Desert descriptions
+[X] Flesh out Breakfast, Lunch, Dinner, Desert descriptions
 
-Refine accessibility 
+[] Refine accessibility 
 
-Compare against MVP requirements
+[] Compare against MVP requirements

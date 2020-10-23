@@ -1,4 +1,5 @@
 /* CSS RESET */
+
 html, body, div, span, applet, object, iframe,  
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,  
 a, abbr, acronym, address, big, cite, code,  
@@ -19,6 +20,7 @@ font-size: 100%;
 font: inherit;  
 vertical-align: baseline;  
 }
+
 /* Generla Style */
 
 html{
@@ -35,7 +37,7 @@ h1, h2, p, .recipes, .description {
     margin: 4%;	
 }	
 h1, h2{
-    font-size:6rem; /*6rem*/
+    font-size:6rem;
     margin:0;
 }
 a {	
@@ -176,7 +178,7 @@ button:hover{
   .recipes img {
       object-fit: contain;
       height: 100%;
-      width: 90%; /* width 70% */
+      width: 80%; /* width 70% */
     }
   }
 
@@ -200,26 +202,18 @@ button:hover{
     }
   
   .recipes-container {
-      -webkit-column-count: 2; /* Remove */
-      -moz-column-count: 2; /* Remove */
-      column-count: 2; /* Remove */
-      /* display: flex; */ /* Remove */
-      /* flex-direction: row; */ /* Remove */
-        /* flex-direction: column; */
-      /* align-items: center; */
-      /* justify-content: center; */ /* justify-content: flex-start; */
+      flex-wrap: wrap;
       width: 90%; /*width 90% */
     }
 
   .recipes { 
-    
-    width: 100%; /*100% */
+     width: 30%;  /*100% */
     } 
   
   .recipes img {
       object-fit: contain;
       height: 100%;
-      width: 70%; /*Width 70%*/
+      width: 80%; /*Width 70%*/
     }
   } 
 
@@ -256,7 +250,7 @@ button:hover{
 .recipes img {
     object-fit: contain;
     height: 100%;
-    width: 70%;
+    width: 80%; /* 70% */
   }
 } 
 	
